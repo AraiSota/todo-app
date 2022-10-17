@@ -65,3 +65,20 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # todo-app
+<!-- 
+Dockerの起動 
+$ docker compose up -d
+
+PHPコンテナへ入る
+$ docker compose exec php bash
+
+DB接続
+MyAdminからDBへ接続
+ http://localhost:8081
+
+ サーバの起動
+ $$ php artisan serve --host 0.0.0.0
+
+ ページ表示
+ http://localhost:8000
+-->
