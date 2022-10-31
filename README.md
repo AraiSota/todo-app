@@ -81,4 +81,7 @@ MyAdminからDBへ接続
 
  ページ表示
  http://localhost:8000
+
+ nodeサーバの起動
+ $ docker run --rm -it -v "$PWD":/home/node/app -w /home/node/app -p 5173:5173 -u 1000:1000 node:16.16.0-alpine sh -c "npm install && npm run dev"
 -->
